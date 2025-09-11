@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Bellefair";
+    src: url("/assets/fonts/Bellefair/Bellefair-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Regular.ttf");
+}
+
+::ng-deep body {
+  background: url('/assets/destination/background-destination-desktop.jpg') no-repeat center center fixed;
+  background-size: cover;
+}   
+
+section{
+    padding: 30px 12%;
+    display:flex ;
+    justify-content: center;
+}
+
+.pageTitle{
+    color: white;
+    font-family: "Barlow";
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.pageNum{
+    margin-right: 10px;
+    color: #D0D6F9  ;
+}
+
+.pageMainContentArea{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    margin-top: 35px;
+}
+
+.mainContentTitle{
+    color: white;
+    font-size: 70px;
+    font-family:"Bellefair";
+}
+
+.mainContent{
+    color: #D0D6F9;
+    font-family: "Barlow";
+    max-width: 400px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.hr{
+    margin: 35px 0px;
+    border-bottom: 1px #D0D6F9 solid;
+}
+
+.infoArea{
+    display: flex;
+    margin-top: 10px;
+}
+
+.timeInfoArea{
+    display: flex;
+    flex-grow:1;
+    justify-content: end;
+}
+
+.avgDistance,
+.estTime{
+    color:#D0D6F9;
+    font-size: 13px;
+    font-family: "Barlow";
+}
+
+.distance,
+.time{
+    color: white;
+    font-size:20px ;
+    margin-top: 10px;
+    font-family: "Bellefair";
+}
