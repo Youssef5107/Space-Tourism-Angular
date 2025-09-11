@@ -1,0 +1,4 @@
+::ng-deep body {
+  background: url('/assets/technology/background-technology-desktop.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
