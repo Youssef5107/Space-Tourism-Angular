@@ -1,0 +1,15 @@
+nav{
+    margin-bottom: 30px;
+}
+
+a{
+    color: white;
+    margin:0px 13px ;
+    font-family: "Barlow";
+    text-decoration: none;
+    color: #D0D6F9;
+}
+
+.active{
+     border-bottom: 2px white solid;
+}
