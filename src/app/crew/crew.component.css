@@ -1,0 +1,4 @@
+::ng-deep body {
+  background: url('/assets/crew/background-crew-desktop.jpg') no-repeat center center fixed;
+  background-size: cover;
+}   
